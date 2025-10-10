@@ -1,0 +1,29 @@
+/* src/index.css */
+
+/* Variables de color para el tema oscuro */
+:root {
+  --color-primario: #61dafb; /* Un azul cian brillante, típico de React */
+  --color-fondo: #1a1a1a; /* Un fondo gris muy oscuro */
+  --color-superficie: #242424; /* Un gris un poco más claro para tarjetas y navbar */
+  --color-texto: #e1e1e1; /* Un texto blanco con un toque de gris */
+  --color-blanco: #ffffff;
+  --sombra-suave: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primario);
+}
